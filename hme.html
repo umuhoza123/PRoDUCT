@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+
+        <header>
+         ,<marquee behavior="1.5 sec" direction="right"><h1>Store  convenience App</h1></marquee>   
+          </header>
+          <main>
+            <div class="left-side">
+             
+
+              <form action="#">
+                <h2> Registering new product </h2>
+                <br>
+                <label> Title:  </label>
+                <br>
+                <div class="input">
+                  <input
+                         type="text"
+                         name="title"
+                         id="title"
+                         placeholder="Title"
+                         required
+                         />
+                </div>
+                <label> product description:  </label>
+                <br>
+                <div class="input">
+                  <textarea
+                            name="description"
+                            id="description"
+                            cols="30"
+                            rows="10"
+                            placeholder="Product Description"
+                            required
+                            ></textarea>
+                </div>
+                <label> price:  </label>
+                <br>
+                <div class="input">
+                  <input
+                         type="number"
+                         name="price"
+                         id="price"
+                         placeholder="Product Price"
+                         required
+                         />
+                </div>
+                <label> product category:  </label>
+                <br>
+                <div class="input">
+                  <select name="category" id="category" required>
+                    <option>-- Product Category --</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="books">Books</option>
+                    <option value="clothing">Clothing</option>
+                  </select>
+                </div>
+                
+                <label> Available Quantity:  </label>
+                <br>
+                <div class="input">
+                  <input
+                         type="number"
+                         name="availability"
+                         id="availability"
+                         placeholder="Available Quantity"
+                         required
+                         />
+                </div>
+
+                <label> uploading :  </label>
+                <br>
+                <div class="input">
+                  <input type="file" name="image" id="image" required />
+                </div>
+                <div class="input">
+                  <button type="submit">New Product </button>
+                </div>
+              </form>
+            </div>
+            <div class="right-side">
+             <b> <h3>Our Catalog</h3></b>
+              <div class="card">
+                <div class="card-image">
+                  <img
+                       src="https://images.unsplash.com/photo-1661961110218-35af7210f803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                       alt="Product Image"
+                       />
+                </div>
+                <div class="card-content">
+                  <h1 class="card-title">Product Title</h1>
+                  <i class="card-category">Electronics</i>
+                  <p class="card-price">$100</p>
+                  <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                    quae.
+                  </p>
+                  <p class="card-availability">10 Qty.</p>
+                  <button class="card-button">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+          
+              <div class="card">
+                <div class="card-image">
+                  <img
+                       src="https://images.unsplash.com/photo-1661961110218-35af7210f803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                       alt="Product Image"
+                       />
+                </div>
+                <div class="card-content">
+                  <h1 class="card-title">Product Title</h1>
+                  <i class="card-category">Electronics</i>
+                  <p class="card-price">$100</p>
+                  <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                    quae.
+                  </p>
+                  <p class="card-availability">10 Qty.</p>
+                  <button class="card-button">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </main>
+          
+    </body>
+</html>
